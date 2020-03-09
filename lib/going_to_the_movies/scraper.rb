@@ -7,7 +7,7 @@ class Scraper
   @@links = []
   
   def self.movie_list
-    url = get_page
+    url = Nokogiri::HTML(open("https://www.amctheatres.com/"))
     a = url.css("div[tabindex='-1']")
     b = []
     binding.pry

@@ -15,4 +15,6 @@ class Movies
     @name = name
     @movie_link = movie_link
   end
+  
+  
 end
