@@ -1,28 +1,14 @@
 # GoingToTheMovies
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/going_to_the_movies`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to your CLI Movie search application. You can search for all the movies now playing in threatres. Select them and see if you want to see them.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'going_to_the_movies'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install going_to_the_movies
 
 ## Usage
 
-TODO: Write usage instructions here
+to do still
 
 ## Development
 

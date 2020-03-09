@@ -1,3 +1,6 @@
+require 'pry'
+require 'nokogiri'
+require 'open-uri'
 class Scraper
   
   def get_page
@@ -7,10 +10,10 @@ class Scraper
   @@links = []
   
   def self.movie_list
+    binding.pry
     url = Nokogiri::HTML(open("https://www.amctheatres.com/"))
     a = url.css("div[tabindex='-1']")
     b = []
-    binding.pry
     a.each do |x|
       b << x.css("h3").text
       @@links << x.css("a")[0]['href']
