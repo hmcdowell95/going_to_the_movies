@@ -5,10 +5,12 @@ Welcome to your CLI Movie search application. You can search for all the movies 
 ## Installation
 
     $ gem install going_to_the_movies
+    $ bundle install
+    $ ruby bin/going_to_the_movies
 
 ## Usage
 
-to do still
+To show the user movies in threatres now and coming out this week and a few details about them if requested. The first 6 movies are coming out this week and the last 10 are the top movies out now.
 
 ## Development
 
