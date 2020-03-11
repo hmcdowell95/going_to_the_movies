@@ -4,7 +4,7 @@ Welcome to your CLI Movie search application. You can search for all the movies 
 
 ## Installation
 
-    $ gem install going_to_the_movies
+    $ git clone https://github.com/hmcdowell95/going_to_the_movies.git
     $ bundle install
     $ ruby bin/going_to_the_movies
 

@@ -4,14 +4,14 @@ class CLI
     puts "Welcome to Going to the Movies!"
     input = nil 
     while input != 'exit'
-    puts "To see movies that are in threatres this week and now, enter 'movies'"
-    puts "To exit. type 'exit'"
-    input = gets.strip.downcase
-    if input == 'movies'
-      show_movies
-      puts "To see more info on a movie, type the number next to it"
-      movie_details
-    end
+      puts "To see movies that are in threatres this week and now, enter 'movies'"
+      puts "To exit. type 'exit'"
+      input = gets.strip.downcase
+      if input == 'movies'
+        show_movies
+        puts "To see more info on a movie, type the number next to it"
+        movie_details
+      end
     end
   end
 
