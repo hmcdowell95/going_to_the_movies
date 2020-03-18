@@ -1,6 +1,7 @@
 class CLI 
   
   def call
+    Movies.create_from_array
     puts "Welcome to Going to the Movies!"
     input = nil 
     while input != 'exit'
@@ -26,10 +27,8 @@ class CLI
 
 
   def show_movies
-    count = 1
-    Movies.all.each do |x|
-      puts "#{count}. #{x.name}"
-      count += 1
+    Movies.all.each_with_index do |x, y|
+      puts "#{y + 1}. #{x.name}"
     end
   end
   

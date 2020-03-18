@@ -6,10 +6,8 @@ class Movies
     a = Scraper.movie_list
     b = Scraper.movie_genres
     c = Scraper.movie_span
-    a.each do |x|
-      y = Movies.new(x, b[0], c[0])
-      b.shift
-      c.shift
+    a.each_with_index do |x, y|
+      Movies.new(x, b[y], c[y])
     end
   end
   
