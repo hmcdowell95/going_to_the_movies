@@ -10,7 +10,7 @@ Welcome to your CLI Movie search application. You can search for all the movies 
 
 ## Usage
 
-To show the user movies in threatres now and coming out this week and a few details about them if requested. The first 6 movies are coming out this week and the last 10 are the top movies out now.
+To show the user movies in threatres now and coming out this week and a few details about them if requested. The last 10 are the top movies out now and the movies up top are coming out this week.
 
 ## Development
 
